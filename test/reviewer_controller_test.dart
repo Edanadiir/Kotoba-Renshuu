@@ -1,12 +1,12 @@
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/core/models/assignment.dart';
-import 'package:wanikani_reviewer/core/models/context_sentence.dart';
-import 'package:wanikani_reviewer/core/models/quiz_item.dart';
-import 'package:wanikani_reviewer/core/models/subject.dart';
-import 'package:wanikani_reviewer/features/quiz/domain/quiz_engine.dart';
-import 'package:wanikani_reviewer/main.dart';
+import 'package:kotoba_renshuu/core/models/assignment.dart';
+import 'package:kotoba_renshuu/core/models/context_sentence.dart';
+import 'package:kotoba_renshuu/core/models/quiz_item.dart';
+import 'package:kotoba_renshuu/core/models/subject.dart';
+import 'package:kotoba_renshuu/features/quiz/domain/quiz_engine.dart';
+import 'package:kotoba_renshuu/main.dart';
 
 void main() {
   test('wrong choice advances, while revealed second miss waits for Next', () {

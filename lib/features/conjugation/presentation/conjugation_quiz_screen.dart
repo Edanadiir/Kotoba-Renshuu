@@ -176,6 +176,20 @@ class _ConjugationQuizScreenState extends State<ConjugationQuizScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        const Text(
+          'Conjugation',
+          style: TextStyle(
+            fontSize: 34,
+            fontWeight: FontWeight.w800,
+            color: _ink,
+          ),
+        ),
+        const SizedBox(height: 8),
+        const Text(
+          'Conjugate each word into the requested form.',
+          style: TextStyle(color: _muted, fontSize: 15),
+        ),
+        const SizedBox(height: 24),
         Row(
           children: [
             TextButton.icon(

@@ -48,7 +48,7 @@ class WaniKaniReviewerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Wanikani Renshuu',
+    title: 'Kotoba Renshuu',
     theme: ThemeData(
       useMaterial3: true,
       scaffoldBackgroundColor: _paper,
@@ -250,7 +250,7 @@ class _ReviewerShellState extends State<ReviewerShell> {
                 const Padding(
                   padding: EdgeInsets.fromLTRB(28, 20, 16, 10),
                   child: Text(
-                    'WaniKani Reviewer',
+                    'Kotoba Renshuu',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
                   ),
                 ),
@@ -3016,7 +3016,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 label: const Text('Clear local database and audio cache'),
               ),
               const SizedBox(height: 8),
-              const Text('App version 0.96.4', style: TextStyle(color: _muted)),
+              const Text('Kotoba Renshuu 0.97.0', style: TextStyle(color: _muted)),
+              const SizedBox(height: 4),
+              const Text('Unofficial third-party companion for WaniKani', style: TextStyle(color: _muted)),
             ],
           ),
         ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/features/transitivity/presentation/transitivity_screen.dart';
-import 'package:wanikani_reviewer/models/transitivity_pairs.dart';
+import 'package:kotoba_renshuu/features/transitivity/presentation/transitivity_screen.dart';
+import 'package:kotoba_renshuu/models/transitivity_pairs.dart';
 
 void main() {
   testWidgets('offline setup starts an identification session', (tester) async {

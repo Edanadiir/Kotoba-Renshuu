@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/features/onomatopoeia/presentation/onomatopoeia_screen.dart';
-import 'package:wanikani_reviewer/models/onomatopoeia_item.dart';
-import 'package:wanikani_reviewer/models/onomatopoeia_items.dart';
+import 'package:kotoba_renshuu/features/onomatopoeia/presentation/onomatopoeia_screen.dart';
+import 'package:kotoba_renshuu/models/onomatopoeia_item.dart';
+import 'package:kotoba_renshuu/models/onomatopoeia_items.dart';
 
 void main() {
   test('onomatopoeia bank is well formed', () {

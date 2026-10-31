@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/features/quiz/domain/answer_matcher.dart';
+import 'package:kotoba_renshuu/features/quiz/domain/answer_matcher.dart';
 
 void main() {
   test('normalizes numeric answers and punctuation', () {

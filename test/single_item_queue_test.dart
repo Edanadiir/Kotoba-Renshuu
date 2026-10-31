@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:wanikani_reviewer/core/models/quiz_item.dart';
-import 'package:wanikani_reviewer/core/models/subject.dart';
-import 'package:wanikani_reviewer/features/quiz/domain/quiz_engine.dart';
+import 'package:kotoba_renshuu/core/models/quiz_item.dart';
+import 'package:kotoba_renshuu/core/models/subject.dart';
+import 'package:kotoba_renshuu/features/quiz/domain/quiz_engine.dart';
 
 void main() {
   test('a failed single-item queue stays active until answered correctly', () {

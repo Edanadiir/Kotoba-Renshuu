@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/core/models/assignment.dart';
-import 'package:wanikani_reviewer/core/models/subject.dart';
-import 'package:wanikani_reviewer/features/transitivity/domain/learned_pairs.dart';
-import 'package:wanikani_reviewer/models/transitivity_pairs.dart';
+import 'package:kotoba_renshuu/core/models/assignment.dart';
+import 'package:kotoba_renshuu/core/models/subject.dart';
+import 'package:kotoba_renshuu/features/transitivity/domain/learned_pairs.dart';
+import 'package:kotoba_renshuu/models/transitivity_pairs.dart';
 
 Subject vocab(int id, String characters, {SubjectType? type}) => Subject(
   id: id,

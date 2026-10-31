@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:wanikani_reviewer/core/models/assignment.dart';
-import 'package:wanikani_reviewer/core/models/subject.dart';
-import 'package:wanikani_reviewer/core/models/user.dart';
+import 'package:kotoba_renshuu/core/models/assignment.dart';
+import 'package:kotoba_renshuu/core/models/subject.dart';
+import 'package:kotoba_renshuu/core/models/user.dart';
 
 void main() {
   test('parses WaniKani numeric subject fields', () {

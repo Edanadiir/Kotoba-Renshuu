@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kana_kit/kana_kit.dart';
 
-import 'package:wanikani_reviewer/features/quiz/presentation/kana_input_controller.dart';
+import 'package:kotoba_renshuu/features/quiz/presentation/kana_input_controller.dart';
 
 void main() {
   final kanaKit = KanaKit();

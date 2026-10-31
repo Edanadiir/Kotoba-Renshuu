@@ -1,7 +1,7 @@
-name: wanikani_reviewer
-description: "A new Flutter project."
+name: kotoba_renshuu
+description: "An unofficial practice companion for WaniKani."
 publish_to: 'none'
-version: 0.96.4+1
+version: 0.97.0+1
 
 environment:
   sdk: ^3.13.3

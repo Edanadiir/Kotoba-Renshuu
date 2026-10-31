@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/models/transitivity_pair.dart';
-import 'package:wanikani_reviewer/models/transitivity_pairs.dart';
+import 'package:kotoba_renshuu/models/transitivity_pair.dart';
+import 'package:kotoba_renshuu/models/transitivity_pairs.dart';
 
 void main() {
   TransitivityPair byId(String id) =>

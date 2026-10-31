@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wanikani_reviewer/features/conjugation/data/conjugation_dictionary.dart';
-import 'package:wanikani_reviewer/features/conjugation/domain/conjugation_engine.dart';
-import 'package:wanikani_reviewer/features/conjugation/domain/conjugation_models.dart';
+import 'package:kotoba_renshuu/features/conjugation/data/conjugation_dictionary.dart';
+import 'package:kotoba_renshuu/features/conjugation/domain/conjugation_engine.dart';
+import 'package:kotoba_renshuu/features/conjugation/domain/conjugation_models.dart';
 
 VocabEntry word(String kanji) =>
     conjugationDictionary.firstWhere((entry) => entry.kanji == kanji);
